@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.155f5116.css",
-    "main.js": "/static/js/main.681c05ff.js",
+    "main.css": "/static/css/main.c50c270d.css",
+    "main.js": "/static/js/main.204c8156.js",
+    "static/media/opensauce-regular.woff2": "/static/media/opensauce-regular.37bf0d9b2dacc085e0f2.woff2",
+    "static/media/opensauce-medium.woff2": "/static/media/opensauce-medium.96b5abd987448296f6e4.woff2",
     "index.html": "/index.html",
-    "main.155f5116.css.map": "/static/css/main.155f5116.css.map",
-    "main.681c05ff.js.map": "/static/js/main.681c05ff.js.map"
+    "main.c50c270d.css.map": "/static/css/main.c50c270d.css.map",
+    "main.204c8156.js.map": "/static/js/main.204c8156.js.map"
   },
   "entrypoints": [
-    "static/css/main.155f5116.css",
-    "static/js/main.681c05ff.js"
+    "static/css/main.c50c270d.css",
+    "static/js/main.204c8156.js"
   ]
 }
