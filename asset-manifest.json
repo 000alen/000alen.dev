@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a70a4ef.css",
-    "main.js": "/static/js/main.f7d5ca87.js",
-    "static/media/opensauce-regular.woff2": "/static/media/opensauce-regular.37bf0d9b2dacc085e0f2.woff2",
-    "static/media/opensauce-medium.woff2": "/static/media/opensauce-medium.96b5abd987448296f6e4.woff2",
-    "index.html": "/index.html",
-    "main.3a70a4ef.css.map": "/static/css/main.3a70a4ef.css.map",
-    "main.f7d5ca87.js.map": "/static/js/main.f7d5ca87.js.map"
+    "main.css": "/000alen.dev/static/css/main.018aea4e.css",
+    "main.js": "/000alen.dev/static/js/main.f7d5ca87.js",
+    "static/media/opensauce-regular.woff2": "/000alen.dev/static/media/opensauce-regular.37bf0d9b2dacc085e0f2.woff2",
+    "static/media/opensauce-medium.woff2": "/000alen.dev/static/media/opensauce-medium.96b5abd987448296f6e4.woff2",
+    "index.html": "/000alen.dev/index.html",
+    "main.018aea4e.css.map": "/000alen.dev/static/css/main.018aea4e.css.map",
+    "main.f7d5ca87.js.map": "/000alen.dev/static/js/main.f7d5ca87.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a70a4ef.css",
+    "static/css/main.018aea4e.css",
     "static/js/main.f7d5ca87.js"
   ]
 }
