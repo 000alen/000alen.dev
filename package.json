@@ -2,7 +2,7 @@
   "name": "000alen.dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://000alen.github.io/000alen.dev/",
+  "homepage": "https://000alen.github.io/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
