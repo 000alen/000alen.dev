@@ -1,11 +1,9 @@
 import React from "react";
-import { HomeProjectsLine } from "./HomeProjectsLine";
 import { HomeProjectsProject } from "./HomeProjectsProject";
 
 export function HomeProjects() {
   return (
     <section className="home__projects">
-      <HomeProjectsLine left />
       <HomeProjectsProject
         label={
           <>
@@ -17,7 +15,6 @@ export function HomeProjects() {
         url="https://www.github.com/000alen/phaedra"
       />
 
-      <HomeProjectsLine />
       <HomeProjectsProject
         left
         label={
@@ -30,7 +27,6 @@ export function HomeProjects() {
         url="https://github.com/000alen/nchess/"
       />
 
-      <HomeProjectsLine left />
       <HomeProjectsProject
         label={
           <>
@@ -42,7 +38,6 @@ export function HomeProjects() {
         url="https://github.com/000alen/re/"
       />
 
-      <HomeProjectsLine />
       <HomeProjectsProject
         left
         label={

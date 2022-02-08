@@ -1,15 +1,19 @@
 import React from "react";
-import { HomeNavAlen } from "./HomeNavAlen";
-import { HomeNavButton } from "./HomeNavButton";
+import { Button } from "./elements/Button";
 
 export function HomeNav() {
   return (
     <nav className="home__nav">
       <div className="home__nav__left">
-        <HomeNavAlen />
+        <div className="nav__name" nav-anim="true">
+          <span>
+            Alen <br />
+            Rubilar
+          </span>
+        </div>
       </div>
       <div className="home__nav__right">
-        <HomeNavButton text="contact" />
+        <Button text="contact" />
       </div>
     </nav>
   );

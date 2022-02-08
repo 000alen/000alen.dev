@@ -1,0 +1,16 @@
+.home {
+  &__stack {
+    padding-top: 9.6rem;
+    padding-bottom: 16rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // @extend %description-16;
+    // @include media("<=phone") {
+    //   padding-top: 9.6rem;
+    //   padding-bottom: 16rem;
+    // }
+  }
+}

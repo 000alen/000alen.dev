@@ -5,7 +5,7 @@ export function HomeAwards() {
     <section className="home__awards">
       <div className="home__awards__top">
         <h2 className="awards-title mobile">
-          <span>AWARDS X </span>
+          <span>AWARDS & </span>
           <br />
           <span>RECOGNITION</span>
         </h2>
@@ -30,7 +30,7 @@ export function HomeAwards() {
         </p>
       </div>
       <div className="home__awards__bottom">
-        <h2 className="awards-title desktop">X</h2>
+        <h2 className="awards-title desktop">&</h2>
         <h2 className="awards-title desktop">RECOGNITION</h2>
       </div>
     </section>

@@ -1,0 +1,142 @@
+.home {
+  &__hero {
+    @extend %padding-home;
+
+    margin-bottom: 9.6rem;
+
+    .hero {
+      &__title {
+        line-height: 0.9;
+        color: $col-boulder;
+
+        h1 {
+          &.desktop {
+            @include media("<=phone") {
+              display: none;
+            }
+          }
+
+          &.mobile {
+            @extend %title-328;
+            letter-spacing: -0.05em;
+            word-wrap: break-word;
+            @include media(">phone") {
+              display: none;
+            }
+          }
+        }
+
+        .hero__hover {
+          transition: color 0.2s;
+
+          @media (any-pointer: fine) {
+            &:hover {
+              color: $col-gray;
+            }
+          }
+        }
+
+        &__left,
+        &__right,
+        &__dash {
+          display: inline-block;
+          @extend %title-328;
+          letter-spacing: -0.105em;
+        }
+
+        &__dash {
+          transform: scaleX(1.05);
+          will-change: transform;
+
+          &.desktop {
+            @include media("<=tablet") {
+              display: none;
+            }
+          }
+
+          &.tablet {
+            @include media(">tablet") {
+              display: none;
+            }
+          }
+        }
+
+        &__top {
+          display: flex;
+          justify-content: space-between;
+          padding-right: 3rem;
+        }
+
+        &__top,
+        &__bottom {
+          width: 100%;
+
+          &.overflow {
+            display: inline-flex;
+            width: 100%;
+            overflow: hidden;
+          }
+        }
+
+        &__bottom {
+          justify-content: space-between;
+
+          @include media(">tablet") {
+            display: flex;
+          }
+        }
+        .bottom__left {
+          @extend %title-328;
+          letter-spacing: -0.105em;
+          flex-shrink: 0;
+        }
+
+        .bottom__right {
+          @extend %description-16;
+          position: relative;
+          z-index: 1;
+          max-width: 32.5rem;
+          width: 100%;
+          padding: 2rem 0 5rem;
+          display: flex;
+          flex-direction: column;
+
+          @include media("<=tablet") {
+            max-width: 55rem;
+            padding-bottom: 0;
+          }
+
+          @include media("<=phone") {
+            max-width: 255px;
+            margin-left: auto;
+          }
+        }
+      }
+
+      &__paragraph {
+        color: $col-gray;
+
+        span {
+          text-transform: uppercase;
+        }
+
+        .first-word {
+          @extend %description-12;
+          color: $col-boulder;
+        }
+      }
+
+      &__scroll {
+        margin-top: auto;
+        color: $col-boulder;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include media("<=tablet") {
+          display: none;
+        }
+      }
+    }
+  }
+}

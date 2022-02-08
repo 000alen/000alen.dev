@@ -1,0 +1,31 @@
+.home {
+  &__nav {
+    @extend %padding-home;
+    @extend %description-12;
+
+    margin-bottom: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+
+    .nav__button {
+      flex-shrink: 0;
+      flex-grow: 0;
+    }
+
+    &__left,
+    &__right {
+      display: flex;
+      text-transform: uppercase;
+      justify-content: space-between;
+    }
+
+    &__left {
+      flex-direction: row;
+    }
+
+    &__right {
+      flex-direction: row-reverse;
+    }
+  }
+}

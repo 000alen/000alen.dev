@@ -1,59 +1,24 @@
 import React from "react";
+import { Crowd } from "./Crowd";
+import { Anchor } from "./elements/Anchor";
+import { Marquee } from "./elements/Marquee";
 
 export function HomeContact() {
   return (
-    <section className="home__contact">
-      <p className="home__contact__desc">
-        Got a question, proposal or project, or want to work together on
-        something? Feel free to reach out.
-      </p>
-      <div className="line-wrapper">
-        <span className="home__projects__line left">
-          <span></span>
-        </span>
+    <section className="home__contact" id="js-footer">
+      <Marquee
+        href="https://twitter.com/000alen"
+        text="LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA START SOMETHING?"
+      />
+
+      <div className="home__contact__center">
+        <Anchor href="https://twitter.com/000alen" text="Twitter" />
+        <Anchor href="https://www.instagram.com/000alen/" text="Instagram" />
+        <Anchor href="https://github.com/000alen" text="GitHub" />
+        <Anchor href="https://www.linkedin.com/in/000alen/" text="LinkedIn" />
       </div>
 
-      <div className="marquee">
-        <a
-          href="https://twitter.com/000alen"
-          target="_blank"
-          className="marquee__wrap"
-        >
-          <div className="marquee__inner">
-            <span aria-hidden="true" className="inner-span">
-              <span
-                className="slide-up"
-                data-content="LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA START SOMETHING?"
-                aria-hidden="true"
-              ></span>
-              LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA START
-              SOMETHING?
-            </span>
-            <span className="inner-span">
-              <span
-                className="slide-up"
-                data-content="LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA START SOMETHING?"
-                aria-hidden="true"
-              ></span>
-              LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA START
-              SOMETHING?
-            </span>
-          </div>
-        </a>
-      </div>
-
-      <div className="line-wrapper">
-        <span className="home__projects__line right">
-          <span></span>
-        </span>
-      </div>
-
-      <div className="home__contact__email">
-        <button className="email">000alen@ieee.org</button>
-        <div className="to-copy">
-          <span>Click To Copy</span>
-        </div>
-      </div>
+      <Crowd />
     </section>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 
-export function HomeNavButton({ text, onClick }) {
+export function Button({ className, text, onClick, href }) {
   return (
     <button
-      className="nav__button c-button contact-scroll"
+      className={`c-button ${className}`}
       nav-anim="true"
       onClick={() => onClick && onClick()}
     >

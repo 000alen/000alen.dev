@@ -1,6 +1,6 @@
 import React from "react";
 
-export function HomeHeroScroll() {
+export function ScrollIndicator() {
   return (
     <div className="hero__scroll">
       <p>Scroll down</p>

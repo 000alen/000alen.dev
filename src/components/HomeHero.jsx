@@ -1,6 +1,7 @@
 import React from "react";
 import { HomeHeroTitleSplitted } from "./HomeHeroTitleSplitted";
-import { HomeHeroParagraph } from "./HomeHeroParagraph";
+import { Paragraph } from "./elements/Paragraph";
+import { ScrollIndicator } from "./elements/ScrollIndicator";
 
 export function HomeHero() {
   return (
@@ -37,16 +38,18 @@ export function HomeHero() {
             </span>
           </div>
         </h1>
+
         <span className="hero__title__bottom overflow">
           <div className="hero__title__bottom">
             <h1 className="bottom__left desktop" title-overflow="true">
               <HomeHeroTitleSplitted text="DEVELOPER" />
             </h1>
             <div className="bottom__right">
-              <HomeHeroParagraph
+              <Paragraph
                 first="About"
                 text="I am a developer based in Santiago, Chile with interest in Natural Language Understanding, Machine Learning, Computer Algebra Systems, and Competitive Programming. I have competed in several hackathons and Olympiads and I am currently studying Computer Science at the Pontificia Universidad Catolica de Chile."
               />
+              <ScrollIndicator />
             </div>
           </div>
         </span>

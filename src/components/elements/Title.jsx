@@ -1,24 +1,23 @@
 import React from "react";
-import { Anchor } from "./elements/Anchor";
 
-export function HomeProjectsProject({ label, text, url, left }) {
+export function Title({ title, subtitle, href, left }) {
   return (
     <div className="home__projects__project right">
       <div className="home__projects__project__label">
         <div className="label__inner">
-          <p>{label}</p>
+          <p>{subtitle}</p>
         </div>
       </div>
 
       <a
-        href={url}
+        href={href}
         target="_blank"
         rel="noopener noreferrer"
         className="home__projects__project__link"
       >
         <h1
           className="home__projects__project__title"
-          data-scroll=""
+          data-scroll
           data-scroll-direction="horizontal"
           data-scroll-speed="-8"
         >
@@ -26,17 +25,17 @@ export function HomeProjectsProject({ label, text, url, left }) {
             <div className={`title__main ${left ? "left" : "right"}`}>
               <span
                 className="slide-up"
-                data-content={text}
+                data-content={title}
                 aria-hidden="true"
               ></span>
-              {text}
+              {title}
             </div>
           </span>
         </h1>
       </a>
 
-      <div className={`project__link ${left ? "left" : "right"}`}>
-        <Anchor href={url} text="Visit Site" />
+      <div className="project__link">
+        <Anchor href={href} text="Visit Site" />
       </div>
     </div>
   );

@@ -1,0 +1,51 @@
+.home {
+  &__awards {
+    @extend %padding-home;
+
+    margin-bottom: 9.6rem;
+
+    &__top,
+    &__bottom {
+      justify-content: space-between;
+
+      @include media(">phone") {
+        display: flex;
+      }
+    }
+    .awards-title {
+      @extend %title-328;
+      color: $col-boulder;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+
+      &.mobile {
+        font-size: 99.5px;
+        margin-bottom: 1.6rem;
+        @include media(">phone") {
+          display: none;
+        }
+
+        span {
+          display: inline-block;
+        }
+      }
+
+      &.desktop {
+        @include media("<=phone") {
+          display: none;
+        }
+      }
+    }
+    @extend %links;
+
+    p {
+      align-self: flex-end;
+      @extend %description-32;
+      max-width: 55.5rem;
+
+      @include media(">phone") {
+        padding-bottom: 5.5rem;
+      }
+    }
+  }
+}
