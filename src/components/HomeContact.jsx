@@ -18,7 +18,7 @@ export function HomeContact() {
         <Anchor href="https://www.linkedin.com/in/000alen/" text="LinkedIn" />
       </div>
 
-      <Crowd />
+      {/* <Crowd /> */}
     </section>
   );
 }
