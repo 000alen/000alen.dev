@@ -11,21 +11,21 @@ export function HomeAwards() {
         </h2>
         <h2 className="awards-title desktop">Awards</h2>
         <p className="awards-links">
-          HackMIT 2021 NITW Challenge &nbsp;
+          Winner of the biggest collegiate Hackathon &nbsp;
+          <a
+            href="https://calhacks.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            (CALHACKS)
+          </a>
+          , Winner of HackMIT's NITW challenge &nbsp;
           <a
             href="https://hackmit.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
             (HACKMIT)
-          </a>
-          , Solve for Tomorrow 2020 &nbsp;
-          <a
-            href="https://solucionesparaelfuturo.cl/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            (SOLVEFORTOMORROW)
           </a>
         </p>
       </div>

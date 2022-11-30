@@ -12,7 +12,7 @@ export function Anchor({ href, text }) {
         <span className="c-link__inner">
           <span>
             {text}
-            <span className="share-icon">
+            <span className="share-icon inline-block">
               <svg
                 width="20"
                 height="20"

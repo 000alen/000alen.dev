@@ -5,10 +5,22 @@ export function HomeProjects() {
   return (
     <section className="home__projects">
       <HomeProjectsProject
+        left
         label={
           <>
-            CREATIVE DEVELOPMENT / <br />
-            PORTFOLIO EXPLORATION
+            MACHINE LEARNING / <br />
+            SEIZURE PREDICTION
+          </>
+        }
+        text="PulseBud - A real-time seizure prediction system for smartwatches, powered by machine learning."
+        url="https://www.github.com/000alen/pulsebud"
+      />
+
+      <HomeProjectsProject
+        label={
+          <>
+            MACHINE LEARNING / <br />
+            NATURAL LANGUAGE UNDERSTANDING
           </>
         }
         text="Phaedra - The Inclusive Reading Assistant"
@@ -19,26 +31,15 @@ export function HomeProjects() {
         left
         label={
           <>
-            CREATIVE DEVELOPMENT / <br />
-            PORTFOLIO EXPLORATION
+            MACHINE LEARNING / <br />
+            CANCER DETECTION
           </>
         }
-        text="nChess - The higher-dimensional Chess Framework"
-        url="https://github.com/000alen/nchess/"
+        text="TotemUV - The Tool to detect invisible skin damage"
+        url="https://github.com/000alen/totemuv/"
       />
 
-      <HomeProjectsProject
-        label={
-          <>
-            CREATIVE DEVELOPMENT / <br />
-            PORTFOLIO EXPLORATION
-          </>
-        }
-        text="RE - The Framework for syntactic and semantic analysis"
-        url="https://github.com/000alen/re/"
-      />
-
-      <HomeProjectsProject
+      {/* <HomeProjectsProject
         left
         label={
           <>
@@ -46,9 +47,9 @@ export function HomeProjects() {
             PORTFOLIO EXPLORATION
           </>
         }
-        text="TotemUV - The Tool to detect invisible skin damage"
-        url="https://github.com/000alen/totemuv/"
-      />
+        text="nChess - The higher-dimensional Chess Framework"
+        url="https://github.com/000alen/nchess/"
+      /> */}
     </section>
   );
 }

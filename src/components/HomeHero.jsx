@@ -47,7 +47,7 @@ export function HomeHero() {
             <div className="bottom__right">
               <Paragraph
                 first="About"
-                text="I am a developer based in Santiago, Chile with interest in Natural Language Understanding, Machine Learning, Computer Algebra Systems, and Competitive Programming. I have competed in several hackathons and Olympiads and I am currently studying Computer Science at the Pontificia Universidad Catolica de Chile."
+                text="I am an aspiring Mathematician and developer based in San Francisco, with interest in Natural Language Understanding, Computer Algebra Systems, and Scientific Computing. I have competed in several hackathons and Olympiads and I am currently studying Mathematics & Computer Science at Minerva University."
               />
               <ScrollIndicator />
             </div>
